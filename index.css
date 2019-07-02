@@ -1,0 +1,183 @@
+*
+{
+	color: black;
+	font-family: arial, sans-serif;
+}
+
+body
+{
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+header, footer
+{
+	font-size: 12px;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+
+/* HEADER !!!!!!!!!!!!!!!!! */
+
+		/* css header seulement */
+
+header
+{
+	height: 70px;
+/*	border: 2px solid black;
+*/	display: flex;
+	justify-content: flex-end;
+}
+
+		/* Flexbox header */
+
+#header
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+/*	border: 2px solid black;*/
+	width: 200px;
+	height: 50px;
+	color: black;
+}
+
+
+/* CENTRE !!!!!!!! */
+
+		/* css centre seulement */
+
+#recherche
+{
+	padding-bottom: 15px;
+}
+
+#re_go
+{
+	width: 600px;
+	height: 45px;
+	border-radius: 50px;
+	border: 1px solid rgba(32,33,36,0.10);
+/*	box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);*/
+	padding: 10px;
+}
+
+.but
+{
+	background-color: #f2f2f2;
+	width: 140px;
+	height: 35px;
+	border-radius: 4px;
+	border: none;
+	color: #5F6368;
+}
+
+		/* Flexbox centre */
+
+#cont_centre
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+/*	border: 2px solid black;*/
+	height: 230px;
+}
+
+#centre
+{
+	height: 500px;
+}
+
+#re_jai
+{
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+/*	border: 2px solid black;*/
+	width: 300px;
+}
+
+
+/* FOOTER !!!!!!!!!!!! */
+
+		/* css footer */
+
+footer
+{
+	display: flex;
+	height: 82px;
+/*	border: 2px solid black;*/
+	width: 100%;
+}
+
+footer > section > div > div>a
+{
+	color: #5F6368;
+}
+
+footer>section>div>p
+{
+	color: #5F6368;
+}
+
+		/* Flexbox footer */
+
+#foot
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+/*	border: 2px solid black;*/
+	height: 80px;
+	width: 100%;
+	border: 0.5px solid rgba(32,33,36,0.15);
+	padding: auto;
+}
+
+#ht
+{
+/*	border: 2px solid black;*/
+	background-color: #f2f2f2;
+	padding: 0 15px;
+/*	border: 0.5px solid #5F6368;*/
+
+}
+
+#bas
+{
+	display: flex;
+	justify-content: space-between;
+/*	border: 2px solid black;*/
+	background-color: #f2f2f2;
+	height: 40px;
+	padding: 0 15px;
+/*	border: 0.5px solid #5F6368;*/
+	border-top: 0.5px solid rgba(32,33,36,0.15);
+}
+
+#bga
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+/*	border: 2px solid black;*/
+	width: 500px;
+}
+
+#bdr
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+/*	border: 2px solid black;*/
+	width: 400px;
+}
