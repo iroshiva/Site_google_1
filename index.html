@@ -5,21 +5,22 @@
 	<meta charset="utf-8">
 	<title>Google</title>
 	<link rel="stylesheet" href="index.css" />
+	<link rel="shortcut icon" href="google-icon.ico">
 </head>
 
 <body>
 	<header>
 		<div id="header">
-			<div id="Gmail">
+			<div>
 				<a href="https://accounts.google.com/signin/v2/sl/pwd?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"> Gmail </a> 
 			</div>
-			<div id="Images">
+			<div>
 				<a href="https://www.google.fr/imghp?hl=fr&tab=wi&ogbl">Images</a>
 			</div>
-			<div id="logo_wwf">
+			<div>
 				<a href="https://www.wwf.fr"> <img src="logo_wwf.png" alt="logo WWF" height="30px"></a>
 			</div>
-			<div id="logo_ufc">
+			<div>
 				<a href="https://www.ufc.com/"><img src="logo_ufc.png" alt="logo ufc" height="30px"></a>
 			</div>
 		</div>
@@ -27,18 +28,20 @@
 
 	<section id="centre">
 		<div id="cont_centre">
-			<div id="logogoogle">
-			<img src="logo_google.png">
+			<div>
+				<img src="logo_google.png">
 			</div>
 			<div id="recherche">
-				<input type="search" name="re_go" id="re_go">
+				<form method="get" id="form1" action="https://www.google.com/search">
+					<input type="text" name="q" id="re_go" />
+				</form>
 			</div>
 			<div id="re_jai">
-				<div id="re">
-					<button name="recherche" class="but">Recherche Google</button>
+				<div>
+					<button type="submit" form="form1" class="but">Recherche Google</button>
 				</div>
-				<div id="jai">
-					<button name="jai" class="but">J'ai de la chance</button>
+				<div>
+					<button type="submit" form="form1" class="but">J'ai de la chance</button>
 				</div>
 			</div>
 		</div>
